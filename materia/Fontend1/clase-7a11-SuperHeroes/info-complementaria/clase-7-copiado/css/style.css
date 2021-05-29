@@ -1,0 +1,182 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    margin:0px;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 5px; 
+    font-family: Roboto;
+}  
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    bottom: 5px;
+    padding-left: 10px;
+    }
+
+.navegador {
+    background-color: black;
+    text-align: right;
+    height: 20px;
+    padding: 10px 10px;
+}
+
+.navegador a{
+    background-color: black;
+    color:white;
+    text-align: right;
+    padding: 0px 10px;
+    height: 20px;
+    text-decoration: none;
+}
+
+.navegador a:hover {
+    background-color: #5f686d;}
+
+header {
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 25px;      
+    padding-left: 100px ;
+    display: flex;
+    position: absolute;
+    top: 20%;
+}
+
+section{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f3f3f3;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 30px 30px;
+    width: 300px;   
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: inline-block;
+}
+
+.fondo-batman {
+    background-image: url("../img/bg-batman.jpg");
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 180px;
+    position: relative;
+}
+
+.fondo-wonderwoman {
+    background-image: url("../img/bg-wonderw.jpg");
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 180px;
+    position: relative;
+}
+
+.fondo-superman {
+    background-image: url("../img/bg-superman.jpg");
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 180px;
+    position: relative;
+}
+
+.card-perfil {
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 5%;
+}
+
+.card-contenido {
+    position: relative;
+    text-align: center;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 800;
+    padding-top: 70px;
+}
+
+p {
+    padding: 0px 20px;
+    text-align: left;
+}
+
+a {
+    background: #00669F;
+    color: white;
+    display: inline-block;
+    bottom: 1px;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+}
+
+.corazon {
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+footer {
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white
+}
+
+.boton {
+    background-color: #00669F;
+    border-radius: 50%;
+    bottom: 50%;
+    color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    right: 50px;
+    padding: 10px;
+    position: fixed;
+    z-index: 999;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        position: relative;
+    }
+}

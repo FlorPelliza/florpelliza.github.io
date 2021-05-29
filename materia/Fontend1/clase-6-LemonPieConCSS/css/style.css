@@ -1,0 +1,47 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');*/
+@font-face{
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+    font-family: 'Roboto';
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header section{
+     background-color: beige;
+     background-image: url("../img/lemon-pie.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     height: 500px;
+     opacity: 1;
+}
+
+header section div {
+    position: relative;
+    top: 300px;
+}
+
+header section div h1{
+    color: black;
+    font-size: 50px;
+}
+
+header section div p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+     font-weight: 900;
+ }
+
+ h3 {
+     font-style: italic;
+ }
+
+ a {
+     color: red;
+ }
