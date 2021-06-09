@@ -60,23 +60,17 @@ main section {
 .grafico {
     border:5px solid var(--colorTres);
 }
-/*
-.distribucion {
-    display: flex;
-    justify-content: space-around;
-}
-
-.distribucion img {
-    height: 70vh;
-}
 
 .analisis {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.analisis ul {
-    padding-left: 35px;
+.analisis img {
+    margin-bottom: 20px;
+    width: 80vw;
 }
 
 .analisis ul li {
@@ -93,55 +87,25 @@ main section {
     align-items: center;
 }
 
-.propuestas p {
-    font-weight: 700;
-    text-align: center;
-    font-size: large;
-}
-
 .propuestas ul li {
     font-weight: 600;
     font-size: large;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: justify;
 }
 
-.efectos h3 {
-    padding: 15px;
-}
-
-.efectos img {
-    height: 70vh;
-    margin-bottom: 10px;
-}
-
-.efectos ul li {
-    font-weight: 600;
-    font-size: large;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: justify;
-}
-
-.cambios {
-    text-align: end;
-}
-
-.cambios ul li {
-    text-align: end;
-}
-
-.subtitulo {
-    padding-top: 10px;
-    text-align: center;
-}
-
-.nueva-distribucion {
+.flujogramas {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-*/
+
+.flujogramas img {
+    width: 80vw;
+    margin-top: 20px;
+}
+
 .botones {
     display: flex;
     justify-content: space-between;
