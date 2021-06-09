@@ -29,6 +29,10 @@ header div img {
     padding: 5%;
 }
 
+.logo {
+    height: 100px;
+}
+
 header h1 {
     font-weight: 700;
     text-align: center;

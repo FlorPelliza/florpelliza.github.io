@@ -26,6 +26,10 @@ header div img {
     padding: 5%;
 }
 
+.logo {
+    height: 100px;
+}
+
 main {
     height: 77.5vh;
     display: flex;
