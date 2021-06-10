@@ -101,9 +101,18 @@ main section {
     align-items: center;
 }
 
-.flujogramas img {
-    width: 80vw;
+.comparacion img {
+    width: 45vw;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
+}
+
+.comparacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .botones {
